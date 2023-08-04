@@ -13,15 +13,13 @@ This is a template repository. Below is a checklist of things you should do to u
 - [ ] Grant third-party app permissions (e.g. Codecov) [here](https://github.com/organizations/cmi-dair/settings/installations), if necessary.
 - [ ] Either generate a `CODECOV_TOKEN` secret [here](https://github.com/cmi-dair/flowdump/blob/main/.github/workflows/python_tests.yaml) (if its a private repository) or remove the line `token: ${{ secrets.CODECOV_TOKEN }}`
 
-
 # Project name
 
-[![Build](https://github.com/cmi-dair/template-python-repository/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/cmi-dair/template_python_repository/actions/workflows/test.yaml?query=branch%3Amain)
-[![codecov](https://codecov.io/gh/cmi-dair/template-python-repository/branch/main/graph/badge.svg?token=22HWWFWPW5)](https://codecov.io/gh/cmi-dair/template-python-repository)
+[![Build](https://github.com/cmi-dair/template-python-repository/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/cmi-dair/llama-runner/actions/workflows/test.yaml?query=branch%3Amain)
+[![codecov](https://codecov.io/gh/cmi-dair/template-python-repository/branch/main/graph/badge.svg?token=22HWWFWPW5)](https://codecov.io/gh/cmi-dair/llama-runner)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![L-GPL License](https://img.shields.io/badge/license-L--GPL-blue.svg)](https://github.com/cmi-dair/template-python-repository/blob/main/LICENSE)
-[![pages](https://img.shields.io/badge/api-docs-blue)](https://cmi-dair.github.io/template-python-repository)
-
+[![L-GPL License](https://img.shields.io/badge/license-L--GPL-blue.svg)](https://github.com/cmi-dair/llama-runner/blob/main/LICENSE)
+[![pages](https://img.shields.io/badge/api-docs-blue)](https://cmi-dair.github.io/llama-runner)
 
 What problem does this tool solve?
 
@@ -47,7 +45,7 @@ pip install git+https://github.com/cmi-dair/template_python_repository
 
 ## Quick start
 
-Short tutorial, maybe with a 
+Short tutorial, maybe with a
 
 ```Python
 import template_python_repository
